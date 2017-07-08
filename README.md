@@ -11,7 +11,7 @@ Next, naviate into that new directory via the terminal:
 
 	cd ~/lineage
 
-To initialize your local repository using the Turbo ROM trees, use this command:
+To initialize your local repository use this command:
 
 	repo init -u git://github.com/LineageOS/android.git -b cm-14.1
 
