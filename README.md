@@ -13,16 +13,7 @@ You can make the 4 higher depending on how fast your internet connection is.
 _Building from source_
 ---------------
 
-First:
-
-	cd ~/lineage
-
-Second:
-
 	$ echo "export USE_CCACHE=1" >> ~/.bashrc
 	$ prebuilts/misc/linux-x86/ccache/ccache -M 50G
-
-Third:
-
-	. build/envsetup.sh
-	brunch codename
+	$ . build/envsetup.sh
+	$ brunch codename
