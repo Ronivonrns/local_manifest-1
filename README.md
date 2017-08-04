@@ -1,23 +1,6 @@
-LineageOS For Xiaomi Redmi 2/Prime/Pro
-======================================
+the local manifests:
 
-Initializing:
-
-First, create a folder to hold the source code: 
-
-	mkdir ~/lineage
-
-Next, naviate into that new directory via the terminal:
-
-	cd ~/lineage
-
-To initialize your local repository use this command:
-
-	repo init -u git://github.com/LineageOS/android.git -b cm-14.1
-
-Also add the local manifests:
-
-	git clone https://github.com/CarlosArriagaCM/local_manifest -b cm-14.1-wt88047 .repo/local_manifests
+	git clone https://github.com/CarlosArriagaCM/local_manifest -b aim-condor .repo/local_manifests
 
 Then sync up with this command:
 
@@ -42,4 +25,4 @@ Second:
 Third:
 
 	. build/envsetup.sh
-	brunch wt88047
+	brunch codename
