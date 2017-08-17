@@ -2,8 +2,8 @@
 <manifest>
 
     <!-- device tree -->	
-    <project path="device/motorola/condor" name="CarlosArriagaCM/android_device_motorola_condor" remote="github" revision="aim" />
-    <project path="device/motorola/msm8610-common" name="CarlosArriagaCM/android_device_motorola_msm8610-common" remote="github" revision="cm-14.1" />
+    <project path="device/motorola/condor" name="LineageOS/android_device_motorola_condor" remote="github" revision="cm-14.1" />
+    <project path="device/motorola/msm8610-common" name="LineageOS/android_device_motorola_msm8610-common" remote="github" revision="cm-14.1" />
     <project path="device/motorola/harpia" name="LineageOS/android_device_motorola_harpia" remote="github" revision="cm-14.1" />
     <project path="device/motorola/osprey" name="LineageOS/android_device_motorola_osprey" remote="github" revision="cm-14.1" />
     <project path="device/motorola/msm8916-common" name="LineageOS/android_device_motorola_msm8916-common" remote="github" revision="cm-14.1" />
