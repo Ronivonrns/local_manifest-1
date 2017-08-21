@@ -2,14 +2,10 @@
 <manifest>
 
     <!-- device tree -->	
-    <project path="device/motorola/condor" name="LineageOS/android_device_motorola_condor" remote="github" revision="cm-14.1" />
-    <project path="device/motorola/msm8610-common" name="LineageOS/android_device_motorola_msm8610-common" remote="github" revision="cm-14.1" />
-    <project path="device/motorola/harpia" name="LineageOS/android_device_motorola_harpia" remote="github" revision="cm-14.1" />
-    <project path="device/motorola/osprey" name="LineageOS/android_device_motorola_osprey" remote="github" revision="cm-14.1" />
+    <project path="device/motorola/surnia" name="LineageOS/android_device_motorola_surnia" remote="github" revision="cm-14.1" />
     <project path="device/motorola/msm8916-common" name="LineageOS/android_device_motorola_msm8916-common" remote="github" revision="cm-14.1" />
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
     <!-- kernel -->
-    <project path="kernel/motorola/msm8610" name="LineageOS/android_kernel_motorola_msm8610" remote="github" revision="cm-14.1" />
     <project path="kernel/motorola/msm8916" name="LineageOS/android_kernel_motorola_msm8916" remote="github" revision="cm-14.1" />
     <!-- vendor -->
     <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
