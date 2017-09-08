@@ -2,14 +2,11 @@
 <manifest>
     
     <!-- device tree -->	
-    <project path="device/wingtech/wt88047" name="nicknitewolf/android_device_wingtech_wt88047" remote="github" revision="lineage-15.0" />
-    <project path="device/cyanogen/msm8916-common" name="nicknitewolf/android_device_cyanogen_msm8916-common" remote="github" revision="lineage-15.0" />
-    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="lineage-15.0" />
+    <project path="device/huawei/vns" name="OpenKirin/android_device_huawei_vns" remote="github" revision="7.x" />
+    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
     <!-- kernel -->
-    <project path="kernel/wingtech/msm8916" name="nicknitewolf/android_kernel_wingtech_msm8916" remote="github" revision="lineage-15.0" />
+    <project path="kernel/huawei/vns" name="OpenKirin/android_kernel_huawei_vns" remote="github" revision="7.x" />
     <!-- vendor -->
-    <project path="vendor/wingtech" name="nicknitewolf/proprietary_vendor_wingtech" remote="github" revision="lineage-15.0" />
-    <!--extras-->		
-    <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
+    <project path="vendor/huawei/vns" name="OpenKirin/android_vendor_huawei_vns" remote="github" revision="7.x" />
 
 </manifest>
