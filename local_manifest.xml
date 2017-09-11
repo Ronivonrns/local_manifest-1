@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     
-    <remove-project path="hardware/qcom/display-caf/msm8937" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8937" />
-    <remove-project path="hardware/qcom/media-caf/msm8937" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="cm-14.1-caf-8937" />
-    
     <!-- device tree -->	
     <project path="device/xiaomi/rolex" name="CarlosArriagaCM/android_device_xiaomi_rolex" remote="github" revision="cm-14.1" />
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
@@ -11,8 +8,5 @@
     <project path="kernel/xiaomi/msm8937" name="CarlosArriagaCM/android_kernel_xiaomi_msm8953" remote="github" revision="cm-14.1" />
     <!-- vendor -->
     <project path="vendor/xiaomi" name="Redmi4A/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
-
-    <project path="hardware/qcom/media-caf/msm8937" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-13.0-caf-8937"  />
-    <project path="hardware/qcom/display-caf/msm8937" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-13.0-caf-8937" />
     
 </manifest>
